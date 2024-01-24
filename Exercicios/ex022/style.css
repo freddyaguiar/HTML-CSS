@@ -1,0 +1,86 @@
+body{
+    background-image: url(imagens/wallpaper001.jpg);
+    margin:10px 10px 10px 10px;
+}
+div.quadrado {
+    display: inline block;
+    border: 2px solid black;
+    width: 860px;
+    height: 300px;
+    border-radius: 12px;
+    background-color: lightcyan;
+    margin-bottom: 15px;
+}
+h1{
+    
+}
+
+div#q1{
+    background-image: linear-gradient(to bottom right, #4affde 0%,#5b9dff 40%,#9f6bff 60%, #ff34d2 100%);
+    background-size: 200% 200%;
+    animation: gradientEffect 3s linear infinite alternate;
+}
+div#q1 > p{
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    height: 50px;
+    width: 350px;
+    margin: auto;
+    margin-top: 80px;
+    border-radius: 5px;
+    padding-bottom: 40px;
+    padding-top:45px ;
+    font-weight: bolder;
+    font-size: 40px;
+    border: 3px solid rgb(255, 255, 255);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.459);
+
+}
+@keyframes gradientEffect {
+    from { background-position: 0 0;}
+    to { background-position: 100% 100%;}
+}
+
+div#q2{
+    background-image: url(imagens/pattern003.png); 
+}
+div#q2 > p{
+    background-image: url(imagens/pattern001.png);
+    color: rgb(0, 255, 234);
+    text-align: center;
+    height: 50px;
+    width: 350px;
+    margin: auto;
+    margin-top: 80px;
+    border-radius: 5px;
+    padding-bottom: 40px;
+    padding-top:45px ;
+    font-weight: bolder;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    border: 3px solid rgb(255, 79, 79);
+}
+div#q3{
+    background-image: linear-gradient(to bottom left, rgb(255, 255, 35) 0%, yellow 40%, orange 60%,red 100%);
+    animation: gradientEffect 3s linear infinite alternate;
+    background-size: 290% 100%;
+}
+div#q3 > p{
+    color: black;
+    background-image: url(imagens/wallpaper005.jpg);
+    text-align: center;
+    height: 30px;
+    width: 450px;
+    margin:auto;
+    margin-top: 50px;
+    border-radius: 7px;
+    padding-top: 60px;
+    padding-bottom: 85px;
+    border: 3px solid red;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.459);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Courier, monospace;
+    font-size: 50px;
+}
+
