@@ -132,7 +132,7 @@ main h2{
     text-indent: 8px;
 }
 main > article > h1,h2 {
-    font-family: var(--fonte-android);
+    font-family: 'android', 'cursive';
 }
 div.video {
     background-color: var(--cor06);
