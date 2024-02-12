@@ -6,15 +6,22 @@
     <title>Formulario</title>
 </head>
 <body>
-    <form action="cadastro.php" method="get">
+    <form action="cadastro.php" method="post">
 
         <p>
             <label for="iest">Estado</label>
             <select name="estado" id="iest">
-                <option value="SP">Sao Paulo</option>
-                <option value="MG">Minas Gerais</option>
-                <option value="BA">Bahia</option>
-                <option value="RJ">Rio de Janerio</option>
+
+                <optgroup label="Região Sudeste">
+                    <option value="SP">Sao Paulo</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="RJ">Rio de Janerio</option>
+                </optgroup>
+                <optgroup label="Região Nordeste">
+                    <option value="BH">Maranhão</option>
+                    <option value="BA">Bahia</option>
+                    <option value="PE">Pernambuco</option>
+                </optgroup>
             </select>
         </p>
     </form>
