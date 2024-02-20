@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+/* Todas as Medias*/
+
+/* Typcal Device Breakpoints
+----------------------------
+Pequenas Telas: ate 600px
+Celular: de 600px ate 768px
+Tablet: 768px ate 922
+Desktop: 992px ate 1200px
+Grandes Telas: acima de 1200px */
+
+@media print { /*IMPRESSAO*/
+    
+}
+@media screen and (min-width:768px) and (max-width: 992px){ /*TABLET*/
+    body{
+        background-image: url(../imagens/back-tablet.jpg);
+    }
+}
+@media screen and (min-width: 992px) and (max-width: 1200px){/*DESKTOP*/
+    body{
+        background-image: url(../imagens/back-pc.jpg);
+    }
+}
+@media screen and (min-width: 1200px){/*GRANDES TELAS*/
+    body{
+        background-image: url(../imagens/back-tv.jpg);
+    }
+}
